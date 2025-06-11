@@ -1,4 +1,4 @@
 
 $('#link').on('click', () => {
-    $('#link').attr('href', 'youtube.com')
+    $('#link').attr('href', 'https://www.youtube.com')
 });
