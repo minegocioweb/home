@@ -1,12 +1,16 @@
 html {
-    --grey: rgb(70, 70, 72);
+    --main-color: rgb(70, 70, 72);
 }
 
-.main_container {
-    display: flex;
-    justify-content: center;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
 }
 
-.widgetMiddle {
-    background-color: var(--grey);
+.scrollAppContainer {
+    width: 100%;
+    padding: 10px;
 }

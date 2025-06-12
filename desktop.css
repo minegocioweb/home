@@ -1,0 +1,71 @@
+.main_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ads {
+    display: none;
+}
+
+.widgetTop {
+    display: none;
+    width: 100%;
+    aspect-ratio: 100 / 12;
+}
+
+.widgetBottom {
+    display: none;
+    width: 100%;
+    aspect-ratio: 100 / 13;
+}
+
+
+@media (min-width: 1024px) {
+
+    .widget {
+        position: fixed;
+        top: 0;
+        height: 100%;
+        aspect-ratio: 54/100;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 0;
+    }
+
+    .widgetMiddle {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        padding: 0 0 22px 0;
+        overflow: hidden;
+        background-color: rgb(70, 70, 72);
+    }
+
+    .ads,
+    .widgetTop,
+    .widgetBottom {
+        display: flex;
+    }
+
+    .scrollAppContainer::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    .scrollAppContainer::-webkit-scrollbar-thumb {
+        background: #ccc;
+        border-radius: 2.5px;
+    }
+
+    .scrollAppContainer {
+        height: 100%;
+        margin: 0 7px;
+        border-radius: 6px;
+        background-color: white;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        padding: 10px;
+    }
+}
