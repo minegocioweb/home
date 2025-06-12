@@ -1,0 +1,12 @@
+html {
+    --grey: rgb(70, 70, 72);
+}
+
+.main_container {
+    display: flex;
+    justify-content: center;
+}
+
+.widgetMiddle {
+    background-color: var(--grey);
+}
