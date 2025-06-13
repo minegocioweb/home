@@ -1,0 +1,8 @@
+@import "../home.css";
+
+.scrollAppContainer {
+    width: 100%;
+    height: 100%;
+    background-color: var(--back-1);
+    padding: 0;
+}
